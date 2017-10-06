@@ -11,9 +11,9 @@
 8. Open up this link : `http://localhost:8000`
 9. Enjoy your application.
 
-## N.B: 
-* Askem is still on its early development stage and many features are to come in future commits :)
+### N.B
+**Askem is still on its early development stage and many features are to come in future commits :)**
 
-## License
-Askem uses Laravel framework that is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-While Askem also is also an open-source software that is licensed under the [MIT license](LICENSE.md).
+### License
+- Askem uses Laravel framework that is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+- While Askem also is also an open-source software that is licensed under the [MIT license](LICENSE.md).
