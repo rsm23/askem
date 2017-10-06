@@ -11,7 +11,7 @@
                         </h4>
                     </div>
                     <div class="card-body">
-                        {!! parsedown($question->body) !!}
+                        <editor body="{{ $question->body }}"></editor>
                     </div>
                     @can('update', $question)
                         <div class="card-footer row">
@@ -37,7 +37,7 @@
                             </h5>
                         </div>
                         <div class="card-body">
-                            <p class="card-text">{!! parsedown($reply->body) !!}</p>
+                            <p class="card-text"><editor body="{{ $reply->body }}"></editor></p>
                         </div>
                     </div>
                 @endforeach
